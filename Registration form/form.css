@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(./assets/patrick-tomasso-5hvn-2WW6rY-unsplash.jpg); 
+    background-image: url(./assets/teemu-paananen-OOE4xAnBhKo-unsplash.jpg); 
     background-size: cover;
     background-position: center;
 }
@@ -22,13 +22,13 @@ body {
     color: #fff;
     border-radius: 12px;
     padding: 30px 40px;
-    border: 2px solid #360033;;
+    border: 2px solid #fff;;
 }
 
 .wrapper h1 {
     font-size: 36px;
     text-align: center;
-    color:#360033;
+    color:#fff
 }
 
 .wrapper .input-box {
@@ -77,6 +77,7 @@ body {
     font-weight: 600;
     margin-top: 20px;
     margin-bottom: 10px;
+    margin-left: 0px;
 
 }
 
@@ -94,6 +95,7 @@ body {
     color: #fff;
     font-weight: 600;
     margin-bottom: 20px 0 15px;
+    margin-left: 0px;
 }
 
 

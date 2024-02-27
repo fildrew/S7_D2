@@ -9,23 +9,16 @@ saveButton.addEventListener("click", function (event) {
     const newName = {
         name: nameInput.value,
     };
-
     newArray.push(newName);
-
     const newstring = JSON.stringify(newArray);
-
     localStorage.setItem("name", newstring);
-
     nameInput.value = "";
-
     addName();
 });
 
 const addName = function () {
     let names = document.querySelector("ul");
-
     names.innerHTML = "";
-
     newArray.forEach((contact) => {
         const newLi = document.createElement("li");
         newLi.innerText = contact.name;
